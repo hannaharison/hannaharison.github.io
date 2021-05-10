@@ -1,0 +1,57 @@
+/* === For your Responsive CSS === */
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+#nav a {
+    display: block;
+    background-color: orange;
+    text-align: center;
+    padding: 5px;
+}
+
+
+main {
+    
+    grid-template-columns: 100%;
+}
+
+
+
+#splash {
+    grid-column: 1/2;
+    
+}
+
+
+#app {
+    grid-column: 1/2;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
