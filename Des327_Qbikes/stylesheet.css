@@ -8,15 +8,17 @@ font-family: 'Roboto', sans-serif;
 }
 
 nav a {
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-size: 18pt;
     line-height: 18pt;
-    color: #cdcdcd;
+    color: white;
+    
     text-decoration: none;
+    width: 100%;
 }
 
 nav {
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14pt;
     line-height: 22pt;
     color: #000000;
@@ -25,9 +27,9 @@ nav {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 72pt;
+    font-size: 35pt;
     line-height: 18pt;
-    color: #000000;
+    color: white;
 }
 
 h2 {
@@ -38,7 +40,7 @@ h2 {
 }
 
 footer {
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 10pt;
     line-height: 18pt;
     color: #ffffff;
@@ -50,14 +52,62 @@ footer {
     font-size: 3.42rem;
     line-height: 4.28rem;
     color: white;
-    text-shadow: 0px 0px 5px #6e6e6e;
+
 }
+
+.splashtext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    line-height: normal;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+    position: fixed;
+}
+
+.bwlogo {
+    float: left;
+    padding: 13px;
+}
+
+#navbar {
+   padding-top: 45px;
+    padding-right: 195px;
+    text-align: center;
+    display: block;
+    background-color: #000000;
+    padding-bottom: 35px;
+    
+    
+}
+
+a:hover {
+    color: #11A3F5;
+}
+
+#socialmedia {
+    float: right;
+    background-color: black;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 20px;
+    top: 0px;
+    right: 0px;
+}
+
+
+
 
 */ === Backgrounds === */
 
+
 header {
     background-color: #000000;
+    
 }
+
 
 div {
     background-color: #cdcdcd;
@@ -71,22 +121,47 @@ footer {
     background-color: #000000;
 }
 
+
+
 #splash {
     background-color: #11A3F5;
     background-size: cover;
+    height: 325px;
+    padding-top: 25px;
 }
 
 nav {
     background-color: black;
     background-size: cover;
+    height: 90px;
+
+    
 }
 
+.splashtext {
+    background-color: white; text-align:left; vertical-align: middle; padding:20px 47px;
+}
 
 */ === Box Model === */
 
-#splash {
-    height: 400px;
+.row {
+    display: flex;
+    padding: 15px;
 }
+
+
+.column {
+   float: left;
+    padding: 10px;
+}
+
+
+.columnright {
+    float: right;
+    
+}
+
+
 
 nav {
     padding: 10px;
@@ -113,7 +188,22 @@ nav a {
     
 }
 
+.splashtext {
+    
+   /* margin-left: auto;
+    margin-right: auto;
+    width: 25px;*/
+}
+    
+    
+
+    
+
+
+
 */ === Layout === */
+
+
 
 .floatleft {
     float: left;
@@ -140,13 +230,30 @@ main {
 }
 
 #splash{
-    grid-column-start: 1;
+    text-align: center;
+  left: 0;
+  right: 0;
+    
+    
+   /* text-align: center;
+    left: 0;
+    right: 0; */
+    
+    /*grid-column-start: 1;
     grid-column-end: 3;
     display: flex;
     align-items: center;
     justify-content: center;
+    */
 }
-
+.splashtext {
+position:relative;
+  width: 400px;
+  min-height: 60px;
+  margin: auto;
+  padding-top:20px;
+    
+}
 aside{
     margin-left: 35px;
 }
