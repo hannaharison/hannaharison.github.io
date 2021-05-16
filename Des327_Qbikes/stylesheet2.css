@@ -100,7 +100,9 @@ footer {
     grid-template-columns: 50% 50%;
     margin: 2.67rem;
     align-content: center;
-    column-gap: 1.34rem;
+    column-gap: 1.52rem;
+    grid-row-gap: 25px;
+    
 }
 
 #logo {
