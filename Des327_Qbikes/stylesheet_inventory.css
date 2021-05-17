@@ -1,0 +1,217 @@
+/* === Typography === */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    line-height: 12pt;
+    color: #ffffff;
+    font-style: oblique;
+    text-align: center;
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.00rem;
+    line-height: 1.29rem;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #11A3F5;
+}
+
+.splashtext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0rem;
+    line-height: 1.42rem;
+    color: #343434;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+#call-us,
+h2,
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.00rem;
+    line-height: 1.29rem;
+    color: white;
+    text-decoration: none;
+}
+
+/* === Background === */
+
+header {
+    background-color: #343434;
+}
+
+
+body {
+    background-color: #ffffff;
+
+}
+
+footer {
+    background-color: #343434;
+}
+
+#splash {
+    background-color: #11A3F5;
+    background-size: cover;
+    padding-top: 2.67rem;
+    padding-bottom: 2.67rem;
+    width: auto;
+}
+
+.splashtext {
+    background-color: white;
+}
+
+
+/* === Layout === */
+
+#album {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 2.67rem;
+    align-content: center;
+    column-gap: 1.52rem;
+    grid-row-gap: 25px;
+    
+}
+
+#logo {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+#socialmedia {
+    text-align: right;
+    margin-right: 0.53rem;
+    margin-top: 0.53rem;
+}
+
+
+#nav {
+    margin: auto;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    z-index: 9999;
+}
+
+.splashtext {
+    text-align: left;
+    align-items: center;
+    padding: 1.07rem 2.51rem;
+    width: 50%;
+    max-width: 500px;
+}
+
+body {
+    padding-top: 0px;
+    margin: 0px;
+}
+
+footer {
+    padding: 10px;
+}
+
+#call-us {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: #11A3F5;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    max-height: 25px;
+    text-align: center;
+}
+
+#call-us a:hover {
+    color: #343434;
+}
+
+/* Photo album image characteristics */
+.photos img {
+    border-radius: 5px;
+   width: 100%;
+    min-width: 250px;
+    filter: brightness(90%);
+   
+}
+
+
+
+/* Container holding the image and the text */
+.container1 {
+    position: relative;
+    text-align: center;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Centered photo text */
+.centered-text {
+
+    font-size: 20px;
+    line-height: 4vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+main {
+    text-align: center;
+    
+}
+
+.fab {
+    color: white;
+    
+}
