@@ -105,6 +105,16 @@ footer {
     
 }
 
+#frame-repair-album {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 2.67rem;
+    align-content: center;
+    column-gap: 1.52rem;
+    grid-row-gap: 25px;
+    
+}
+
 #logo {
     text-align: left;
     margin-left: 10px;
@@ -175,6 +185,13 @@ footer {
     width: 100%;
     min-width: 250px;
     filter: brightness(75%);
+}
+
+.repair-photos img {
+    border-radius: 5px;
+    width: 100%;
+    min-width: 250px;
+    filter: brightness(90%);
 }
 
 /* Container holding the image and the text */
