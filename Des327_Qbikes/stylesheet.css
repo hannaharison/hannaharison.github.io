@@ -1,4 +1,4 @@
-*/ === Typography === */
+/* === Typography === */
 
 body {
 font-family: 'Roboto', sans-serif;
@@ -12,9 +12,7 @@ nav a {
     font-size: 18pt;
     line-height: 18pt;
     color: white;
-    
     text-decoration: none;
-    width: 100%;
 }
 
 nav {
@@ -69,18 +67,14 @@ footer {
 
 .bwlogo {
     float: left;
-    padding: 13px;
+    padding: 10px;
 }
 
 #navbar {
-   padding-top: 45px;
-    padding-right: 195px;
     text-align: center;
     display: block;
     background-color: #000000;
-    padding-bottom: 35px;
-    
-    
+    padding-bottom: 5px;  
 }
 
 a:hover {
@@ -97,20 +91,15 @@ a:hover {
     right: 0px;
 }
 
-
-
-
-*/ === Backgrounds === */
+/* === Backgrounds === */
 
 
 header {
-    background-color: #000000;
-    
+    background-color: #000000;   
 }
 
-
 div {
-    background-color: #cdcdcd;
+    background-color: #ffffff;
 }
 
 body {
@@ -121,25 +110,26 @@ footer {
     background-color: #000000;
 }
 
-
-
 #splash {
     background-color: #11A3F5;
     background-size: cover;
     height: 325px;
     padding-top: 25px;
+    width: auto;
 }
 
 nav {
     background-color: black;
     background-size: cover;
-    height: 90px;
-
-    
+    height: 50px;
+    width: 100%;
 }
 
 .splashtext {
-    background-color: white; text-align:left; vertical-align: middle; padding:20px 47px;
+    background-color: white;
+    text-align:left;
+    vertical-align: middle; 
+    padding:20px 47px;
 }
 
 */ === Box Model === */
@@ -164,7 +154,7 @@ nav {
 
 
 nav {
-    padding: 10px;
+    padding: 15px;
     
 }
 
@@ -181,7 +171,7 @@ article {
 }
 
 nav a {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 #popup {
@@ -201,7 +191,7 @@ nav a {
 
 
 
-*/ === Layout === */
+/* === Layout === */
 
 
 
