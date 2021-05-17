@@ -221,3 +221,67 @@ main {
     color: white;
     
 }
+
+/* Responsive Css */
+@media screen and (min-width:600px){
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+   
+    header {
+        grid-template-columns: 100%;
+        
+    }
+   main {
+       grid-template-columns: 100%; 
+       justify-content: center;
+    
+    }
+    
+    .photos {
+        grid-column: 1/2;
+        float: none;
+        
+    }
+    
+    .container1 {
+        grid-column: 1/2;
+    }
+    
+    #splash {
+        padding-top: 100px;
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
