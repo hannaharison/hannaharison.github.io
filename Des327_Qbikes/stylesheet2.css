@@ -242,19 +242,20 @@ main {
         grid-template-columns: 100%;
         
     }
+    
    main {
        grid-template-columns: 100%; 
        justify-content: center;
     
     }
     
-    .photos {
-        grid-column: 1/2;
+    .repair-photos {
+        grid-column: 1/3;
         float: none;
         
     }
     
-    .container1 {
+    .photos {
         grid-column: 1/2;
     }
     
